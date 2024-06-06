@@ -45,6 +45,24 @@ cargo run
 ```
 cd LMbench      
 ```
+* Build musl-libc
+```
+git clone https://github.com/richrelker/musl-cross-make.git
+cp config.mak.dist config.mak
+
+# add lines in config.mak
+TARGET = riscv64-linux-musl
+OUTPUT = /usr/local
+GCC_CONFIG += --with-abi=lp64
+GCC_CONFIG += --with-arch=rv64gc
+
+make && sudo make install
+```
+* Compile
+```
+cd cbenchmark
+make
+```
 
 # Authors
 * RenShuang Jiang (National University of Defense Technology) renshuang717@163.com
