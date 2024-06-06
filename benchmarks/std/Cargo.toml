@@ -1,0 +1,19 @@
+[package]
+name = "Std"
+version = "0.1.0"
+authors = ["peiming <peiming@tamu.edu>"]
+#autobenches = false
+
+[dependencies]
+rand = "0.8.4"
+
+
+
+[[bench]]
+name = "benchmarks"
+path = "./benches/linked_list_replace_mut/linked_list.rs"
+
+[profile.bench]
+opt-level = 3
+codegen-units = 1
+

@@ -1,0 +1,120 @@
+
+running 8 tests
+test codegen::tests::should_not_panic_on_bad_bytes ... ignored
+test codegen::tests::should_not_panic_on_bad_bytes_2 ... ignored
+test parser::tests::it_should_parse_basic_json_values ... ignored
+test parser::tests::it_should_parse_escaped_forward_slashes_with_quotes ... ignored
+test parser::tests::it_should_parse_escaped_quotes ... ignored
+test parser::tests::it_should_parse_json_arrays ... ignored
+test parser::tests::it_should_parse_json_complex_object ... ignored
+test parser::tests::it_should_parse_json_nested_object ... ignored
+
+test result: ok. 0 passed; 0 failed; 8 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 6 tests
+test json_rust_parse                     ... bench:       3,490 ns/iter (+/- 1,116) = 173 MB/s
+test json_rust_parse_floats              ... bench:       5,194 ns/iter (+/- 1,193) = 145 MB/s
+test json_rust_stringify                 ... bench:       1,635 ns/iter (+/- 324) = 370 MB/s
+test json_rust_stringify_floats          ... bench:       1,926 ns/iter (+/- 554) = 393 MB/s
+test json_rust_stringify_floats_io_write ... bench:       3,533 ns/iter (+/- 881) = 214 MB/s
+test json_rust_stringify_io_write        ... bench:       2,365 ns/iter (+/- 1,876) = 255 MB/s
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out; finished in 29.14s
+
+
+running 8 tests
+test codegen::tests::should_not_panic_on_bad_bytes ... ignored
+test codegen::tests::should_not_panic_on_bad_bytes_2 ... ignored
+test parser::tests::it_should_parse_basic_json_values ... ignored
+test parser::tests::it_should_parse_escaped_forward_slashes_with_quotes ... ignored
+test parser::tests::it_should_parse_escaped_quotes ... ignored
+test parser::tests::it_should_parse_json_arrays ... ignored
+test parser::tests::it_should_parse_json_complex_object ... ignored
+test parser::tests::it_should_parse_json_nested_object ... ignored
+
+test result: ok. 0 passed; 0 failed; 8 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 6 tests
+test json_rust_parse                     ... bench:       3,657 ns/iter (+/- 1,125) = 165 MB/s
+test json_rust_parse_floats              ... bench:       5,157 ns/iter (+/- 1,881) = 146 MB/s
+test json_rust_stringify                 ... bench:       1,686 ns/iter (+/- 283) = 358 MB/s
+test json_rust_stringify_floats          ... bench:       2,095 ns/iter (+/- 542) = 361 MB/s
+test json_rust_stringify_floats_io_write ... bench:       3,232 ns/iter (+/- 1,105) = 234 MB/s
+test json_rust_stringify_io_write        ... bench:       2,594 ns/iter (+/- 2,158) = 233 MB/s
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out; finished in 31.05s
+
+
+running 8 tests
+test codegen::tests::should_not_panic_on_bad_bytes ... ignored
+test codegen::tests::should_not_panic_on_bad_bytes_2 ... ignored
+test parser::tests::it_should_parse_basic_json_values ... ignored
+test parser::tests::it_should_parse_escaped_forward_slashes_with_quotes ... ignored
+test parser::tests::it_should_parse_escaped_quotes ... ignored
+test parser::tests::it_should_parse_json_arrays ... ignored
+test parser::tests::it_should_parse_json_complex_object ... ignored
+test parser::tests::it_should_parse_json_nested_object ... ignored
+
+test result: ok. 0 passed; 0 failed; 8 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 6 tests
+test json_rust_parse                     ... bench:       5,210 ns/iter (+/- 8,281) = 116 MB/s
+test json_rust_parse_floats              ... bench:       5,238 ns/iter (+/- 6,441) = 144 MB/s
+test json_rust_stringify                 ... bench:       1,771 ns/iter (+/- 586) = 341 MB/s
+test json_rust_stringify_floats          ... bench:       1,931 ns/iter (+/- 308) = 392 MB/s
+test json_rust_stringify_floats_io_write ... bench:       3,651 ns/iter (+/- 1,637) = 207 MB/s
+test json_rust_stringify_io_write        ... bench:       2,399 ns/iter (+/- 664) = 252 MB/s
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out; finished in 23.59s
+
+
+running 8 tests
+test codegen::tests::should_not_panic_on_bad_bytes ... ignored
+test codegen::tests::should_not_panic_on_bad_bytes_2 ... ignored
+test parser::tests::it_should_parse_basic_json_values ... ignored
+test parser::tests::it_should_parse_escaped_forward_slashes_with_quotes ... ignored
+test parser::tests::it_should_parse_escaped_quotes ... ignored
+test parser::tests::it_should_parse_json_arrays ... ignored
+test parser::tests::it_should_parse_json_complex_object ... ignored
+test parser::tests::it_should_parse_json_nested_object ... ignored
+
+test result: ok. 0 passed; 0 failed; 8 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 6 tests
+test json_rust_parse                     ... bench:       3,602 ns/iter (+/- 853) = 167 MB/s
+test json_rust_parse_floats              ... bench:       5,503 ns/iter (+/- 2,692) = 137 MB/s
+test json_rust_stringify                 ... bench:       1,878 ns/iter (+/- 1,188) = 322 MB/s
+test json_rust_stringify_floats          ... bench:       2,065 ns/iter (+/- 1,034) = 367 MB/s
+test json_rust_stringify_floats_io_write ... bench:       3,202 ns/iter (+/- 1,670) = 236 MB/s
+test json_rust_stringify_io_write        ... bench:       2,351 ns/iter (+/- 837) = 257 MB/s
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out; finished in 27.12s
+
+
+running 8 tests
+test codegen::tests::should_not_panic_on_bad_bytes ... ignored
+test codegen::tests::should_not_panic_on_bad_bytes_2 ... ignored
+test parser::tests::it_should_parse_basic_json_values ... ignored
+test parser::tests::it_should_parse_escaped_forward_slashes_with_quotes ... ignored
+test parser::tests::it_should_parse_escaped_quotes ... ignored
+test parser::tests::it_should_parse_json_arrays ... ignored
+test parser::tests::it_should_parse_json_complex_object ... ignored
+test parser::tests::it_should_parse_json_nested_object ... ignored
+
+test result: ok. 0 passed; 0 failed; 8 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 6 tests
+test json_rust_parse                     ... bench:       4,039 ns/iter (+/- 3,783) = 149 MB/s
+test json_rust_parse_floats              ... bench:       6,056 ns/iter (+/- 4,287) = 125 MB/s
+test json_rust_stringify                 ... bench:       1,868 ns/iter (+/- 1,672) = 323 MB/s
+test json_rust_stringify_floats          ... bench:       2,099 ns/iter (+/- 1,482) = 361 MB/s
+test json_rust_stringify_floats_io_write ... bench:       3,266 ns/iter (+/- 1,774) = 232 MB/s
+test json_rust_stringify_io_write        ... bench:       3,062 ns/iter (+/- 4,459) = 197 MB/s
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out; finished in 30.94s
+

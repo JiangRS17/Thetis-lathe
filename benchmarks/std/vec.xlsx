@@ -1,0 +1,297 @@
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 9 tests
+test linked_list::bench_collect_into         ... bench:       2,641 ns/iter (+/- 1,208)
+test linked_list::bench_iter                 ... bench:         268 ns/iter (+/- 111)
+test linked_list::bench_iter_mut             ... bench:         251 ns/iter (+/- 28)
+test linked_list::bench_iter_mut_rev         ... bench:         424 ns/iter (+/- 81)
+test linked_list::bench_iter_rev             ... bench:         435 ns/iter (+/- 330)
+test linked_list::bench_push_back            ... bench:         140 ns/iter (+/- 74)
+test linked_list::bench_push_back_pop_back   ... bench:         183 ns/iter (+/- 177)
+test linked_list::bench_push_front           ... bench:          95 ns/iter (+/- 107)
+test linked_list::bench_push_front_pop_front ... bench:         120 ns/iter (+/- 102)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 9 measured; 0 filtered out; finished in 40.16s
+
+
+running 9 tests
+test bench_collect_into         ... bench:       3,483 ns/iter (+/- 2,223)
+test bench_iter                 ... bench:         295 ns/iter (+/- 114)
+test bench_iter_mut             ... bench:         413 ns/iter (+/- 179)
+test bench_iter_mut_rev         ... bench:         640 ns/iter (+/- 503)
+test bench_iter_rev             ... bench:         659 ns/iter (+/- 427)
+test bench_push_back            ... bench:         137 ns/iter (+/- 60)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 4 tests
+test vec_deque::bench_grow_1025     ... bench:       4,987 ns/iter (+/- 2,615)
+test vec_deque::bench_iter_1000     ... bench:       1,719 ns/iter (+/- 1,289)
+test vec_deque::bench_mut_iter_1000 ... bench:       1,615 ns/iter (+/- 939)
+test vec_deque::bench_new           ... bench:           1 ns/iter (+/- 0)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 4 measured; 0 filtered out; finished in 19.12s
+
+
+running 9 tests
+test bench_collect_into         ... bench:       2,658 ns/iter (+/- 614)
+test bench_iter                 ... bench:         262 ns/iter (+/- 94)
+test bench_iter_mut             ... bench:         251 ns/iter (+/- 23)
+test bench_iter_mut_rev         ... bench:         666 ns/iter (+/- 634)
+test bench_iter_rev             ... bench:         708 ns/iter (+/- 690)
+test bench_push_back            ... bench:         186 ns/iter (+/- 137)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 70 tests
+test vec::bench_clone_0000              ... bench:           0 ns/iter (+/- 0)
+test vec::bench_clone_0010              ... bench:          58 ns/iter (+/- 20) = 172 MB/s
+test vec::bench_clone_0100              ... bench:         212 ns/iter (+/- 29) = 471 MB/s
+test vec::bench_clone_1000              ... bench:       1,830 ns/iter (+/- 230) = 546 MB/s
+test vec::bench_clone_from_01_0000_0000 ... bench:          19 ns/iter (+/- 8)
+test vec::bench_clone_from_01_0000_0010 ... bench:          72 ns/iter (+/- 24) = 138 MB/s
+test vec::bench_clone_from_01_0000_0100 ... bench:         258 ns/iter (+/- 59) = 387 MB/s
+test vec::bench_clone_from_01_0000_1000 ... bench:       2,241 ns/iter (+/- 331) = 446 MB/s
+test vec::bench_clone_from_01_0010_0000 ... bench:          18 ns/iter (+/- 11)
+test vec::bench_clone_from_01_0010_0010 ... bench:          87 ns/iter (+/- 46) = 114 MB/s
+test vec::bench_clone_from_01_0010_0100 ... bench:         256 ns/iter (+/- 45) = 390 MB/s
+test vec::bench_clone_from_01_0100_0010 ... bench:          77 ns/iter (+/- 22) = 129 MB/s
+test vec::bench_clone_from_01_0100_0100 ... bench:         266 ns/iter (+/- 62) = 375 MB/s
+test vec::bench_clone_from_01_0100_1000 ... bench:       2,272 ns/iter (+/- 356) = 440 MB/s
+test vec::bench_clone_from_01_1000_0100 ... bench:         302 ns/iter (+/- 207) = 331 MB/s
+test vec::bench_clone_from_01_1000_1000 ... bench:       2,266 ns/iter (+/- 361) = 441 MB/s
+test vec::bench_clone_from_10_0000_0000 ... bench:         112 ns/iter (+/- 60)
+test vec::bench_clone_from_10_0000_0010 ... bench:         440 ns/iter (+/- 334) = 227 MB/s
+test vec::bench_clone_from_10_0000_0100 ... bench:       1,934 ns/iter (+/- 900) = 517 MB/s
+test vec::bench_clone_from_10_0000_1000 ... bench:      18,692 ns/iter (+/- 4,642) = 534 MB/s
+test vec::bench_clone_from_10_0010_0000 ... bench:         112 ns/iter (+/- 117)
+test vec::bench_clone_from_10_0010_0010 ... bench:         407 ns/iter (+/- 341) = 245 MB/s
+test vec::bench_clone_from_10_0010_0100 ... bench:       2,116 ns/iter (+/- 1,127) = 472 MB/s
+test vec::bench_clone_from_10_0100_0010 ... bench:         376 ns/iter (+/- 189) = 265 MB/s
+test vec::bench_clone_from_10_0100_0100 ... bench:       2,106 ns/iter (+/- 759) = 474 MB/s
+test vec::bench_clone_from_10_0100_1000 ... bench:      22,865 ns/iter (+/- 9,143) = 437 MB/s
+test vec::bench_clone_from_10_1000_0100 ... bench:       2,395 ns/iter (+/- 1,484) = 417 MB/s
+test vec::bench_clone_from_10_1000_1000 ... bench:      37,736 ns/iter (+/- 23,614) = 264 MB/s
+test vec::bench_extend_0000_0000        ... bench:          17 ns/iter (+/- 25)
+test vec::bench_extend_0000_0010        ... bench:         202 ns/iter (+/- 188) = 49 MB/s
+test vec::bench_extend_0000_0100        ... bench:         450 ns/iter (+/- 404) = 222 MB/s
+test vec::bench_extend_0000_1000        ... bench:       2,701 ns/iter (+/- 1,401) = 370 MB/s
+test vec::bench_extend_0010_0010        ... bench:         300 ns/iter (+/- 100) = 33 MB/s
+test vec::bench_extend_0100_0100        ... bench:         695 ns/iter (+/- 378) = 143 MB/s
+test vec::bench_extend_1000_1000        ... bench:       6,237 ns/iter (+/- 2,931) = 160 MB/s
+test vec::bench_from_elem_0000          ... bench:           0 ns/iter (+/- 0)
+test vec::bench_from_elem_0010          ... bench:          71 ns/iter (+/- 65) = 140 MB/s
+test vec::bench_from_elem_0100          ... bench:         246 ns/iter (+/- 163) = 406 MB/s
+test vec::bench_from_elem_1000          ... bench:       1,855 ns/iter (+/- 531) = 539 MB/s
+test vec::bench_from_fn_0000            ... bench:           0 ns/iter (+/- 0)
+test vec::bench_from_fn_0010            ... bench:          52 ns/iter (+/- 68) = 192 MB/s
+test vec::bench_from_fn_0100            ... bench:         227 ns/iter (+/- 84) = 440 MB/s
+test vec::bench_from_fn_1000            ... bench:       1,975 ns/iter (+/- 2,346) = 506 MB/s
+test vec::bench_from_iter_0000          ... bench:           0 ns/iter (+/- 0)
+test vec::bench_from_iter_0010          ... bench:          65 ns/iter (+/- 21) = 153 MB/s
+test vec::bench_from_iter_0100          ... bench:         232 ns/iter (+/- 155) = 431 MB/s
+test vec::bench_from_iter_1000          ... bench:       1,978 ns/iter (+/- 874) = 505 MB/s
+test vec::bench_from_slice_0000         ... bench:           4 ns/iter (+/- 1)
+test vec::bench_from_slice_0010         ... bench:         110 ns/iter (+/- 41) = 90 MB/s
+test vec::bench_from_slice_0100         ... bench:         292 ns/iter (+/- 128) = 342 MB/s
+test vec::bench_from_slice_1000         ... bench:       2,357 ns/iter (+/- 750) = 424 MB/s
+test vec::bench_new                     ... bench:           0 ns/iter (+/- 0)
+test vec::bench_push_all_0000_0000      ... bench:          19 ns/iter (+/- 12)
+test vec::bench_push_all_0000_0010      ... bench:          85 ns/iter (+/- 35) = 117 MB/s
+test vec::bench_push_all_0000_0100      ... bench:         242 ns/iter (+/- 59) = 413 MB/s
+test vec::bench_push_all_0000_1000      ... bench:       2,154 ns/iter (+/- 890) = 464 MB/s
+test vec::bench_push_all_0010_0010      ... bench:         217 ns/iter (+/- 92) = 46 MB/s
+test vec::bench_push_all_0100_0100      ... bench:         609 ns/iter (+/- 274) = 164 MB/s
+test vec::bench_push_all_1000_1000      ... bench:       4,215 ns/iter (+/- 1,735) = 237 MB/s
+test vec::bench_push_all_move_0000_0000 ... bench:          12 ns/iter (+/- 10)
+test vec::bench_push_all_move_0000_0010 ... bench:         139 ns/iter (+/- 72) = 71 MB/s
+test vec::bench_push_all_move_0000_0100 ... bench:         308 ns/iter (+/- 133) = 324 MB/s
+test vec::bench_push_all_move_0000_1000 ... bench:       2,346 ns/iter (+/- 1,720) = 426 MB/s
+test vec::bench_push_all_move_0010_0010 ... bench:         238 ns/iter (+/- 170) = 42 MB/s
+test vec::bench_push_all_move_0100_0100 ... bench:         610 ns/iter (+/- 214) = 163 MB/s
+test vec::bench_push_all_move_1000_1000 ... bench:       5,148 ns/iter (+/- 2,395) = 194 MB/s
+test vec::bench_with_capacity_0000      ... bench:           0 ns/iter (+/- 0)
+test vec::bench_with_capacity_0010      ... bench:           0 ns/iter (+/- 0) = 10000 MB/s
+test vec::bench_with_capacity_0100      ... bench:           0 ns/iter (+/- 0) = 100000 MB/s
+test vec::bench_with_capacity_1000      ... bench:           0 ns/iter (+/- 0) = 1000000 MB/s
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 70 measured; 0 filtered out; finished in 287.95s
+
+
+running 9 tests
+test bench_collect_into         ... bench:       2,902 ns/iter (+/- 1,292)
+test bench_iter                 ... bench:         269 ns/iter (+/- 101)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 70 tests
+test vec::bench_clone_0000              ... bench:           0 ns/iter (+/- 0)
+test vec::bench_clone_0010              ... bench:          56 ns/iter (+/- 35) = 178 MB/s
+test vec::bench_clone_0100              ... bench:         221 ns/iter (+/- 79) = 452 MB/s
+test vec::bench_clone_1000              ... bench:       1,828 ns/iter (+/- 266) = 547 MB/s
+test vec::bench_clone_from_01_0000_0000 ... bench:          18 ns/iter (+/- 10)
+test vec::bench_clone_from_01_0000_0010 ... bench:          72 ns/iter (+/- 15) = 138 MB/s
+test vec::bench_clone_from_01_0000_0100 ... bench:         250 ns/iter (+/- 50) = 400 MB/s
+test vec::bench_clone_from_01_0000_1000 ... bench:       2,252 ns/iter (+/- 573) = 444 MB/s
+test vec::bench_clone_from_01_0010_0000 ... bench:          19 ns/iter (+/- 9)
+test vec::bench_clone_from_01_0010_0010 ... bench:          74 ns/iter (+/- 14) = 135 MB/s
+test vec::bench_clone_from_01_0010_0100 ... bench:         251 ns/iter (+/- 51) = 398 MB/s
+test vec::bench_clone_from_01_0100_0010 ... bench:          72 ns/iter (+/- 14) = 138 MB/s
+test vec::bench_clone_from_01_0100_0100 ... bench:         253 ns/iter (+/- 50) = 395 MB/s
+test vec::bench_clone_from_01_0100_1000 ... bench:       2,266 ns/iter (+/- 225) = 441 MB/s
+test vec::bench_clone_from_01_1000_0100 ... bench:         254 ns/iter (+/- 31) = 393 MB/s
+test vec::bench_clone_from_01_1000_1000 ... bench:       2,248 ns/iter (+/- 173) = 444 MB/s
+test vec::bench_clone_from_10_0000_0000 ... bench:         105 ns/iter (+/- 74)
+test vec::bench_clone_from_10_0000_0010 ... bench:         353 ns/iter (+/- 37) = 283 MB/s
+test vec::bench_clone_from_10_0000_0100 ... bench:       1,957 ns/iter (+/- 193) = 510 MB/s
+test vec::bench_clone_from_10_0000_1000 ... bench:      18,079 ns/iter (+/- 3,548) = 553 MB/s
+test vec::bench_clone_from_10_0010_0000 ... bench:         107 ns/iter (+/- 33)
+test vec::bench_clone_from_10_0010_0010 ... bench:         350 ns/iter (+/- 47) = 285 MB/s
+test vec::bench_clone_from_10_0010_0100 ... bench:       1,940 ns/iter (+/- 203) = 515 MB/s
+test vec::bench_clone_from_10_0100_0010 ... bench:         353 ns/iter (+/- 41) = 283 MB/s
+test vec::bench_clone_from_10_0100_0100 ... bench:       2,210 ns/iter (+/- 2,550) = 452 MB/s
+test vec::bench_clone_from_10_0100_1000 ... bench:      23,674 ns/iter (+/- 12,841) = 422 MB/s
+test vec::bench_clone_from_10_1000_0100 ... bench:       1,985 ns/iter (+/- 989) = 503 MB/s
+test vec::bench_clone_from_10_1000_1000 ... bench:      20,035 ns/iter (+/- 9,047) = 499 MB/s
+test vec::bench_extend_0000_0000        ... bench:          12 ns/iter (+/- 4)
+test vec::bench_extend_0000_0010        ... bench:         166 ns/iter (+/- 122) = 60 MB/s
+test vec::bench_extend_0000_0100        ... bench:         317 ns/iter (+/- 81) = 315 MB/s
+test vec::bench_extend_0000_1000        ... bench:       2,434 ns/iter (+/- 567) = 410 MB/s
+test vec::bench_extend_0010_0010        ... bench:         249 ns/iter (+/- 62) = 40 MB/s
+test vec::bench_extend_0100_0100        ... bench:         618 ns/iter (+/- 92) = 161 MB/s
+test vec::bench_extend_1000_1000        ... bench:       5,238 ns/iter (+/- 680) = 190 MB/s
+test vec::bench_from_elem_0000          ... bench:           0 ns/iter (+/- 0)
+test vec::bench_from_elem_0010          ... bench:          53 ns/iter (+/- 19) = 188 MB/s
+test vec::bench_from_elem_0100          ... bench:         217 ns/iter (+/- 52) = 460 MB/s
+test vec::bench_from_elem_1000          ... bench:       1,710 ns/iter (+/- 177) = 584 MB/s
+test vec::bench_from_fn_0000            ... bench:           0 ns/iter (+/- 0)
+test vec::bench_from_fn_0010            ... bench:          53 ns/iter (+/- 17) = 188 MB/s
+test vec::bench_from_fn_0100            ... bench:         213 ns/iter (+/- 78) = 469 MB/s
+test vec::bench_from_fn_1000            ... bench:       1,819 ns/iter (+/- 362) = 549 MB/s
+test vec::bench_from_iter_0000          ... bench:           0 ns/iter (+/- 0)
+test vec::bench_from_iter_0010          ... bench:          59 ns/iter (+/- 25) = 169 MB/s
+test vec::bench_from_iter_0100          ... bench:         211 ns/iter (+/- 43) = 473 MB/s
+test vec::bench_from_iter_1000          ... bench:       1,825 ns/iter (+/- 196) = 547 MB/s
+test vec::bench_from_slice_0000         ... bench:           4 ns/iter (+/- 0)
+test vec::bench_from_slice_0010         ... bench:         103 ns/iter (+/- 33) = 97 MB/s
+test vec::bench_from_slice_0100         ... bench:         283 ns/iter (+/- 40) = 353 MB/s
+test vec::bench_from_slice_1000         ... bench:       2,296 ns/iter (+/- 158) = 435 MB/s
+test vec::bench_new                     ... bench:           0 ns/iter (+/- 0)
+test vec::bench_push_all_0000_0000      ... bench:          18 ns/iter (+/- 9)
+test vec::bench_push_all_0000_0010      ... bench:          85 ns/iter (+/- 31) = 117 MB/s
+test vec::bench_push_all_0000_0100      ... bench:         233 ns/iter (+/- 45) = 429 MB/s
+test vec::bench_push_all_0000_1000      ... bench:       1,872 ns/iter (+/- 310) = 534 MB/s
+test vec::bench_push_all_0010_0010      ... bench:         181 ns/iter (+/- 42) = 55 MB/s
+test vec::bench_push_all_0100_0100      ... bench:         530 ns/iter (+/- 68) = 188 MB/s
+test vec::bench_push_all_1000_1000      ... bench:       3,682 ns/iter (+/- 481) = 271 MB/s
+test vec::bench_push_all_move_0000_0000 ... bench:          11 ns/iter (+/- 6)
+test vec::bench_push_all_move_0000_0010 ... bench:         123 ns/iter (+/- 42) = 81 MB/s
+test vec::bench_push_all_move_0000_0100 ... bench:         286 ns/iter (+/- 45) = 349 MB/s
+test vec::bench_push_all_move_0000_1000 ... bench:       2,155 ns/iter (+/- 252) = 464 MB/s
+test vec::bench_push_all_move_0010_0010 ... bench:         262 ns/iter (+/- 70) = 38 MB/s
+test vec::bench_push_all_move_0100_0100 ... bench:         574 ns/iter (+/- 68) = 174 MB/s
+test vec::bench_push_all_move_1000_1000 ... bench:       4,790 ns/iter (+/- 278) = 208 MB/s
+test vec::bench_with_capacity_0000      ... bench:           0 ns/iter (+/- 0)
+test vec::bench_with_capacity_0010      ... bench:           0 ns/iter (+/- 0) = 10000 MB/s
+test vec::bench_with_capacity_0100      ... bench:           0 ns/iter (+/- 0) = 100000 MB/s
+test vec::bench_with_capacity_1000      ... bench:           0 ns/iter (+/- 0) = 1000000 MB/s
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 70 measured; 0 filtered out; finished in 268.86s
+
+
+running 9 tests
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 70 tests
+test vec::bench_clone_0000              ... bench:          70 ns/iter (+/- 28)
+test vec::bench_clone_0010              ... bench:         116 ns/iter (+/- 49) = 86 MB/s
+test vec::bench_clone_0100              ... bench:         252 ns/iter (+/- 42) = 396 MB/s
+test vec::bench_clone_1000              ... bench:       1,659 ns/iter (+/- 730) = 602 MB/s
+test vec::bench_clone_from_01_0000_0000 ... bench:          77 ns/iter (+/- 16)
+test vec::bench_clone_from_01_0000_0010 ... bench:         122 ns/iter (+/- 52) = 81 MB/s
+test vec::bench_clone_from_01_0000_0100 ... bench:         300 ns/iter (+/- 41) = 333 MB/s
+test vec::bench_clone_from_01_0000_1000 ... bench:       1,913 ns/iter (+/- 1,266) = 522 MB/s
+test vec::bench_clone_from_01_0010_0000 ... bench:          76 ns/iter (+/- 9)
+test vec::bench_clone_from_01_0010_0010 ... bench:         123 ns/iter (+/- 30) = 81 MB/s
+test vec::bench_clone_from_01_0010_0100 ... bench:         299 ns/iter (+/- 38) = 334 MB/s
+test vec::bench_clone_from_01_0100_0010 ... bench:         126 ns/iter (+/- 19) = 79 MB/s
+test vec::bench_clone_from_01_0100_0100 ... bench:         299 ns/iter (+/- 42) = 334 MB/s
+test vec::bench_clone_from_01_0100_1000 ... bench:       2,135 ns/iter (+/- 260) = 468 MB/s
+test vec::bench_clone_from_01_1000_0100 ... bench:         295 ns/iter (+/- 41) = 338 MB/s
+test vec::bench_clone_from_01_1000_1000 ... bench:       2,089 ns/iter (+/- 587) = 478 MB/s
+test vec::bench_clone_from_10_0000_0000 ... bench:         149 ns/iter (+/- 56)
+test vec::bench_clone_from_10_0000_0010 ... bench:         335 ns/iter (+/- 60) = 298 MB/s
+test vec::bench_clone_from_10_0000_0100 ... bench:       1,822 ns/iter (+/- 252) = 548 MB/s
+test vec::bench_clone_from_10_0000_1000 ... bench:      16,210 ns/iter (+/- 5,027) = 616 MB/s
+test vec::bench_clone_from_10_0010_0000 ... bench:         146 ns/iter (+/- 26)
+test vec::bench_clone_from_10_0010_0010 ... bench:         327 ns/iter (+/- 44) = 305 MB/s
+test vec::bench_clone_from_10_0010_0100 ... bench:       1,827 ns/iter (+/- 342) = 547 MB/s
+test vec::bench_clone_from_10_0100_0010 ... bench:         331 ns/iter (+/- 78) = 302 MB/s
+test vec::bench_clone_from_10_0100_0100 ... bench:       1,799 ns/iter (+/- 292) = 555 MB/s
+test vec::bench_clone_from_10_0100_1000 ... bench:      16,461 ns/iter (+/- 5,069) = 607 MB/s
+test vec::bench_clone_from_10_1000_0100 ... bench:       1,805 ns/iter (+/- 240) = 554 MB/s
+test vec::bench_clone_from_10_1000_1000 ... bench:      16,519 ns/iter (+/- 2,360) = 605 MB/s
+test vec::bench_extend_0000_0000        ... bench:          75 ns/iter (+/- 8)
+test vec::bench_extend_0000_0010        ... bench:         171 ns/iter (+/- 59) = 58 MB/s
+test vec::bench_extend_0000_0100        ... bench:         332 ns/iter (+/- 72) = 301 MB/s
+test vec::bench_extend_0000_1000        ... bench:       2,222 ns/iter (+/- 368) = 450 MB/s
+test vec::bench_extend_0010_0010        ... bench:         300 ns/iter (+/- 124) = 33 MB/s
+test vec::bench_extend_0100_0100        ... bench:         628 ns/iter (+/- 100) = 159 MB/s
+test vec::bench_extend_1000_1000        ... bench:       4,803 ns/iter (+/- 1,406) = 208 MB/s
+test vec::bench_from_elem_0000          ... bench:          63 ns/iter (+/- 15)
+test vec::bench_from_elem_0010          ... bench:         108 ns/iter (+/- 15) = 92 MB/s
+test vec::bench_from_elem_0100          ... bench:         218 ns/iter (+/- 43) = 458 MB/s
+test vec::bench_from_elem_1000          ... bench:       1,239 ns/iter (+/- 120) = 807 MB/s
+test vec::bench_from_fn_0000            ... bench:          64 ns/iter (+/- 6)
+test vec::bench_from_fn_0010            ... bench:         114 ns/iter (+/- 34) = 87 MB/s
+test vec::bench_from_fn_0100            ... bench:         259 ns/iter (+/- 55) = 386 MB/s
+test vec::bench_from_fn_1000            ... bench:       1,752 ns/iter (+/- 462) = 570 MB/s
+test vec::bench_from_iter_0000          ... bench:          68 ns/iter (+/- 11)
+test vec::bench_from_iter_0010          ... bench:         111 ns/iter (+/- 22) = 90 MB/s
+test vec::bench_from_iter_0100          ... bench:         221 ns/iter (+/- 100) = 452 MB/s
+test vec::bench_from_iter_1000          ... bench:       1,701 ns/iter (+/- 404) = 587 MB/s
+test vec::bench_from_slice_0000         ... bench:          69 ns/iter (+/- 73)
+test vec::bench_from_slice_0010         ... bench:         147 ns/iter (+/- 20) = 68 MB/s
+test vec::bench_from_slice_0100         ... bench:         307 ns/iter (+/- 58) = 325 MB/s
+test vec::bench_from_slice_1000         ... bench:       2,141 ns/iter (+/- 316) = 467 MB/s
+test vec::bench_new                     ... bench:          56 ns/iter (+/- 8)
+test vec::bench_push_all_0000_0000      ... bench:          74 ns/iter (+/- 12)
+test vec::bench_push_all_0000_0010      ... bench:         131 ns/iter (+/- 29) = 76 MB/s
+test vec::bench_push_all_0000_0100      ... bench:         275 ns/iter (+/- 40) = 363 MB/s
+test vec::bench_push_all_0000_1000      ... bench:       1,902 ns/iter (+/- 1,292) = 525 MB/s
+test vec::bench_push_all_0010_0010      ... bench:         229 ns/iter (+/- 85) = 43 MB/s
+test vec::bench_push_all_0100_0100      ... bench:         585 ns/iter (+/- 195) = 170 MB/s
+test vec::bench_push_all_1000_1000      ... bench:       3,743 ns/iter (+/- 868) = 267 MB/s
+test vec::bench_push_all_move_0000_0000 ... bench:          75 ns/iter (+/- 6)
+test vec::bench_push_all_move_0000_0010 ... bench:         173 ns/iter (+/- 34) = 57 MB/s
+test vec::bench_push_all_move_0000_0100 ... bench:         349 ns/iter (+/- 74) = 286 MB/s
+test vec::bench_push_all_move_0000_1000 ... bench:       2,384 ns/iter (+/- 325) = 419 MB/s
+test vec::bench_push_all_move_0010_0010 ... bench:         314 ns/iter (+/- 47) = 31 MB/s
+test vec::bench_push_all_move_0100_0100 ... bench:         678 ns/iter (+/- 148) = 147 MB/s
+test vec::bench_push_all_move_1000_1000 ... bench:       5,420 ns/iter (+/- 1,145) = 184 MB/s
+test vec::bench_with_capacity_0000      ... bench:          57 ns/iter (+/- 7)
+test vec::bench_with_capacity_0010      ... bench:          58 ns/iter (+/- 7) = 172 MB/s
+test vec::bench_with_capacity_0100      ... bench:          58 ns/iter (+/- 7) = 1724 MB/s
+test vec::bench_with_capacity_1000      ... bench:          57 ns/iter (+/- 14) = 17543 MB/s
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 70 measured; 0 filtered out; finished in 265.09s
+
+
+running 9 tests
