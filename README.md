@@ -4,8 +4,10 @@ We believe --- ``prevention is always better than cure''. Therefore, we propose 
 
 # Repository structure
 We have organised this repository as follows:
-* `experiments/` -
-* `plots/` - Contains all resulting figures seen in the paper.
+* `benchmarks/` - The commonly used benchmark tests for Rust language include JSON, VEC, etc.
+* `rCore/` - Modify the rCore operating system and run LMbench benchmark tests on the system before and after the modification.
+* `Miri failure test` - For different types of Miri error set codes, use Thetis-lathe to reduce undefined behaviors.
+  
 # Build and Run Benchmarks
 ## Build and Run Base64, Bytes, Byteorder, Json, Image, Regex
 ```
@@ -26,7 +28,7 @@ Then,  `cargo bench` . Other tests are similar.
 
 ## Build and Run ASAN, ThreadSanitizer and SafeStack
 ```
-cd performance
+cd miri failure test
 
 @AddressSanitizer
 export RUSTFLAGS=-Zsanitizer=address RUSTDOCFLAGS=-Zsanitizer=address
@@ -43,7 +45,7 @@ cargo run
 
 ## Build and Run LMbench
 ```
-cd LMbench      
+cd rCore      
 ```
 * Build musl-libc
 ```
