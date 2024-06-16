@@ -15,6 +15,7 @@ fn evil() {
     // let t = LEAK as *mut i32;
     let mut t = LEAK.lock().unwrap();
     let q = *t as *mut i32;
+    assert!(!q.is_null()); // 添加断言，判断 q 是否为空
     let _ = unsafe {
         &mut *q
     };
