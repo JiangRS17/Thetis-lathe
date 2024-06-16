@@ -6,7 +6,7 @@ We believe --- ``prevention is always better than cure''. Therefore, we propose 
 We have organised this repository as follows:
 * `benchmarks/` - The commonly used benchmark tests for Rust language include JSON, VEC, etc.
 * `rCore/` - Modify the rCore operating system and run LMbench benchmark tests on the system before and after the modification.
-* `Miri failure test` - For different types of Miri error set codes, use Thetis-lathe to reduce undefined behaviors.
+* `Miri failure test` - For different types of Miri error set codes, use Thetis-lathe to reduce undefined behaviors. We only select the error codes including the use of mutable static variables and unions from them, and use Thetis-lathe to repair them. The Miri tool can be used to test the reduction of undefined behavior before and after.
   
 # Build and Run Benchmarks
 ## Build and Run Base64, Bytes, Byteorder, Json, Image, Regex
