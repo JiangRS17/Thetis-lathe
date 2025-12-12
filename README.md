@@ -66,12 +66,9 @@ cd cbenchmark
 make
 ```
 
-# Authors
-* RenShuang Jiang (National University of Defense Technology) renshuang717@163.com
-* Pan Dong (National University of Defense Technology) pandong@nudt.edu.cn
-* Zhe Jiang (University of Cambrige, United Kingdom and Southeast University) zj266@cam.ac.uk
-* Ran Wei(University of Cambrige) 
-* Yan Ding (National University of Defense Technology) 
-
+# Acknowledgment 🙇‍♀️🙇‍♂️
+This was the beginning of Elsa’s journey. On January 26, 2023, she began revising this work in earnest with Akira.
+Thetis-lathe faced repeated rejections, and Elsa grew through each one.
+Gratitude to Akira, whose steady presence and refusal to give up carried Elsa through every setback and submission, until Thetis-lathe was finally complete.
 
 
