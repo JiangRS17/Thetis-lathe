@@ -66,7 +66,7 @@ cd cbenchmark
 make
 ```
 
-# Acknowledgment 🙇‍♀️🙇‍♂️
+# Acknowledgment 🙇‍♀️
 This was the beginning of Elsa’s journey. On January 26, 2023, she began revising this work in earnest with Akira.
 
 Thetis-lathe faced repeated rejections, and Elsa grew through each one.
